@@ -1,4 +1,4 @@
-import RecoverPwd from '../features/RecoverPwd/RecoverPwd';
+import RecoverPwd from '../Features/RecoverPwd/RecoverPwd';
 
 export default function RecoverPassword() {
   return <RecoverPwd />;
