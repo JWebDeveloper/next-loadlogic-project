@@ -1,24 +1,3 @@
-import { validateForm, loginUser } from './authUtils';
-// import styles from './LoginPage.module.css';
-
-// export default function LoginPage() {
-//   return (
-//     <div className={styles.container}>
-//       <h1 className="text-center">Login</h1>
-//       <form onSubmit={handleLogin} className={styles.form}>
-//         <div className="mb-3">
-//           <label htmlFor="email" className="form-label">Email address</label>
-//           <input type="email" className="form-control" id="email" placeholder="Enter email" />
-//         </div>
-//         <div className="mb-3">
-//           <label htmlFor="password" className="form-label">Password</label>
-//           <input type="password" className="form-control" id="password" placeholder="Enter password" />
-//         </div>
-//         <button type="submit" className="btn btn-primary w-100">Login</button>
-//       </form>
-//     </div>
-//   );
-// }
 
 import React, { useState } from "react";
 import styles from "./LoginPage.module.css"; // Import CSS module
@@ -101,7 +80,7 @@ const LoginPage = () => {
                       <span className={styles.caption}>Remember me</span>
                     </label>
                     <span className="ml-auto">
-                      <a href="#" className={styles.forgotPass}>
+                      <a href="/recoverPassword" className={styles.forgotPass}>
                         Forgot Password
                       </a>
                     </span>
