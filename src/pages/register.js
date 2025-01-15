@@ -1,4 +1,4 @@
-import RegisterPage from '../features/RegisterPage/RegisterPage';
+import RegisterPage from '../Features/RegisterPage/RegisterPage';
 
 export default function Register() {
   return <RegisterPage />;
