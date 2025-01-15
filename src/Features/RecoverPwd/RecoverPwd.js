@@ -10,7 +10,7 @@ export default function RecoverPwd() {
           <label htmlFor="email" className="form-label">Email address</label>
           <input type="email" className="form-control" id="email" placeholder="Enter email" />
         </div>
-        <button type="submit" className="btn btn-warning w-100">Recover Password</button>
+        <button type="submit" disabled className="btn btn-warning w-100">Recover Password</button>
       </form>
     </div>
   );

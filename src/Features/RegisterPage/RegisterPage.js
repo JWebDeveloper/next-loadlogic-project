@@ -18,7 +18,7 @@ export default function RegisterPage() {
           <label htmlFor="password" className="form-label">Password</label>
           <input type="password" className="form-control" id="password" placeholder="Enter password" />
         </div>
-        <button type="submit" className="btn btn-success w-100">Register</button>
+        <button type="submit" disabled className="btn btn-success w-100">Register</button>
       </form>
     </div>
   );
